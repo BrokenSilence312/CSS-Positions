@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+
+#fixed {
+    padding: 20px 40px 40px 20px;
+    background: lightgray;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    
+}
+
+#relative {
+    background: lightgray;
+    position: relative;
+    padding: 20px 40px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#absolute {
+    background: gray;
+    position: absolute; 
+    padding: 20px 40px; 
+    right: -30px;
+    bottom: 0;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
